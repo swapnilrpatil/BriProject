@@ -7,23 +7,19 @@ public class GamblingNumber {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		
-		System.out.println("Enter the value of stake:");
-		int stake = Utility.getInt();
-		
-		System.out.println("Enter the value of goal:");
-		int goal = Utility.getInt();
-		
-		System.out.println("Enter the value of no of times:");
-		int noOfTimes = Utility.getInt();
-		
-		Utility.checkGambling(goal , stake ,noOfTimes);
-		
-		
+
+		//Utility utility =new Utility();
+		System.out.println("Enter how much money the player have");
+		int stake=Utility.getInt();
+		System.out.println("Enter the goal value,which the player needs to make for the final winnig");
+		int goal=Utility.getInt();
+		System.out.println("Enter the number of chances the player have");
+		int chance=Utility.getInt();
+		Utility.calWinLossInGambling(stake,goal,chance);
+	}
 		
 		
 		
 		
 	}
 
-}
