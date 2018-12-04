@@ -6,7 +6,7 @@ public class MathFuction {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("enter a choice do you want: ");
+		System.out.println(" Enter a choice do you want: ");
 		int choice = Utility.getInt();
 		
 	switch(choice) {
@@ -42,7 +42,24 @@ public class MathFuction {
 	    double result1 = Utility.findSquare(c);
 	    System.out.println(result1);
 	      break;
-	    
+	
+	case 6: System.out.println("Enter a number for to check its palindrome or not:");
+	  		int n = Utility.getInt();
+	  		boolean result6 = Utility.isPrime(n);
+	  		System.out.println(result6);
+	  		break;
+	  		
+	/*case 7 : System.out.println("Enter a number to check min and max value");
+	          int num = Utility.getInt();
+	          int result7 = Utility.minValue(num);
+	          System.out.println("result of Minimum is "+result7);
+	          int result8 = Utility.maxValue(num);
+	          System.out.println("result of maximum is :"+result8);
+	          break;*/
+	  		
+	
+		
+	          
 	}
 }
 }
