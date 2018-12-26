@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author bridgeit
- *
- */
-module BridgelabzProgram {
-}
